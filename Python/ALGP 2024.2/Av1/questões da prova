@@ -1,0 +1,88 @@
+'''
+Prova de Algoritmos e Lógica de Programação (AV1) - Turma 1
+
+🔹 Q1. Acesso restrito (2,5 pontos)
+Um sistema de segurança permite o acesso apenas se o usuário for 'admin' ou 'gestor' e a senha estiver correta ('1234').
+Escreva um programa que:
+Peça o nome de usuário
+Se o nome do usuário não tiver sido digitado, informe que “O nome do usuário é obrigatório”, e encerre o programa.
+Peça a senha
+Se a senha do usuário não tiver sido digitada, informe que “A senha do usuário é obrigatória”, e encerre o programa.
+E exiba:
+"Acesso permitido" se os critérios forem atendidos.
+"Acesso negado" caso contrário, e informe:
+Caso ambos os dados estiverem errados: “O nome do usuário e a senha estão incorretos”.
+Se apenas o nome do usuário está errado: “O nome do usuário está incorreto”.
+Se apenas a senha está errada: “A senha está incorreta”.
+Dica: Essa questão deve ser resolvida com and e or.
+
+🔹 Q2. Classificação de clientes para desconto (2,5 pontos)
+Uma loja oferece desconto especial de 10% somente para clientes que:
+São fidelizados (True) e já fizeram mais de 5 compras
+Ou têm cupom especial (True)
+Faça um programa que receba os seguintes dados como entrada:
+Valor total da compra (float)
+Aceita apenas números maiores que zero.
+Se fidelizado (bool)
+Aceita apenas valores True ou False.
+A quantidade de compras realizadas (int)
+Aceita apenas números inteiros positivos.
+Se tem cupom (bool)
+Aceita apenas valores True ou False.
+Se para qualquer um dos dados entrada estiver inválido ou não tiver sido preenchido, emitir uma mensagem informando que “Houve o preenchimento incorreto de algum dado” e encerre o programa.
+Agora se os dados foram digitados e de forma correta:
+Informe se o cliente tem direito ao desconto ou não.
+Informe o valor total a pagar considerando se obtive desconto ou não.
+
+🔹 Q3. Verificar a situação do estudante (2,5 pontos)
+Um estudante ao final do ano pode ter a seguinte situação:
+Aprovado: se a média for igual ou superior a 7 e  tiver frequência igual ou superior a 75%.
+Em recuperação: se a média for maior ou igual a 4, e menor que 7 e tiver frequência igual ou superior a 75%.
+Reprovado por média: se a média for inferior a 4 e tiver frequência igual ou superior a 75%.
+Reprovado por falta: independente da média tirada, se tiver frequência inferior a 75%.
+Escreva um programa que recebe:
+A média (float)
+O dado de entrada para o valor da média deve ser: maior ou igual a zero e menor ou igual a 10.
+A quantidade de aulas dadas (int)
+O dado de entrada para a quantidade de aulas deve aceitar apenas números inteiros positivos e maior que 0.
+A quantidade de faltas do estudante (int)
+O dado de entrada para a quantidade de aulas deve aceitar apenas números inteiros positivos e maior ou igual a 0, e deve ser menor ou igual a quantidade de aulas dadas.
+Se para qualquer um dos dados entrada estiver inválido ou não tiver sido preenchido, emitir uma mensagem informando que “Algum dado obrigatório não foi preenchido ou houve o preenchimento incorreto de algum dado” e encerre o programa.
+Agora se os dados foram digitados e de forma correta, exiba a situação do estudante:
+ “Aprovado” ou
+“Pode fazer recuperação” ou
+“Não pode fazer a recuperação devido a média ser inferior a 4” ou
+“Não pode fazer recuperação devido a quantidade de faltas”.
+
+
+Dica: use operadores relacionais e and/or.
+
+🔹 Q4. Classificação climática com base em múltiplas variáveis (2,5 pontos)
+Crie um programa que leia:
+Temperatura (em graus Celsius) (float)
+O dado de entrada para o valor da média deve ser: no mínimo 0 e no máximo 100.
+
+
+Umidade relativa do ar (em %) (float)
+O dado de entrada para a umidade relativa do ar deve ser: no mínimo 0 e no máximo 100.
+
+
+Velocidade do vento (em km/h) (float)
+O dado de entrada para o valor do vento deve ser: maior que 0.
+Se para qualquer um dos dados entrada estiver inválido ou não tiver sido preenchido, emitir uma mensagem informando que “Algum dado obrigatório não foi preenchido ou houve o preenchimento incorreto de algum dado” e encerre o programa.
+Agora se os dados foram digitados e de forma correta, classifique o clima da seguinte forma:
+"Clima seco e quente": temperatura > 30, umidade < 40
+
+
+"Clima chuvoso": umidade ≥ 85 e temperatura entre 20 e 28
+
+
+"Clima com vento forte": velocidade do vento ≥ 40
+
+
+Se nenhuma das anteriores, exibir: "Clima estável"
+
+
+Dica: priorize a primeira condição que for verdadeira.
+
+'''
