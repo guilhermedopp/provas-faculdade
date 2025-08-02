@@ -1,0 +1,42 @@
+'''
+Elabore um programa para ajudar um professor a gerar o 
+relatório final da sua turma: média geral, quantos estudantes foram 
+aprovados, e quantos reprovados. Para isso: 
+Criar 2 arquivos: util.py, academico.py 
+(Total de 3.0 pontos) util.py  - - - 
+Deve conter a função validar_nota(nota). 
+Retornar True para nota válida e False para nota inválida. 
+Uma nota válida deve ser maior ou igual a 0 e menor ou igual a 
+10. 
+Se for digitado algo não numérico, deve lançar uma exceção do 
+tipo ValueError, com uma mensagem explicativa sobre o motivo do 
+erro. 
+(Total de 6.0 pontos) academico.py 
+(1.0 ponto)  
+Criar a função menu() que fica em loop, encerrando apenas se o 
+usuário escolher a opção 3 (Sair). 
+Para as opções 1 e 2, devem chamar funções específicas. 
+O menu deve apresentar: 
+1. Adicionar notas 
+2. Relatório final 
+3. Sair 
+(2.5 pontos)  
+A função adicionar_nota() deve: 
+● Solicitar ao usuário a nota do estudante (pode ser com casas 
+decimais). 
+● Validar a nota usando a função validar_nota(). 
+○ Se válida, adicionar a nota em uma lista. 
+○ Se inválida, lançar uma exceção informando que a nota não 
+é válida. 
+(2.5 pontos) 
+A função relatorio_final() deve apresentar: 
+● A média geral (com duas casas decimais); 
+● Quantos estudantes foram aprovados; 
+● Quantos foram reprovados. 
+● Se a lista de notas estiver vazia, informar ao usuário e não 
+exibir os cálculos. 
+● Para ser considerado aprovado, a nota deve ser maior ou igual a 
+7.0. 
+A função menu() deve ser chamada ao final do academico.py para 
+iniciar o programa.
+'''
