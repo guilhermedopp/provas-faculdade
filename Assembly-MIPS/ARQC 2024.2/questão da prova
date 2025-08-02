@@ -1,0 +1,36 @@
+Utilizando a linguagem MIPS crie um programa que realize os seguintes algoritmos:
+
+1) Escrever um algoritmo que pergunta um valor em metros e imprime o correspondente em decímetros, centímetros e milímetros.
+
+2) Faça um algoritmo que receba quatro números inteiros, calcule e mostre a soma desses números.
+
+3) Faça um algoritmo que receba três notas, calcule e mostre a média aritmética entre elas.
+
+4) Faça um algoritmo que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas.
+
+5) Faça um programa que receba um número positivo e maior que zero, calcule e mostre:
+a) o número digitado ao quadrado;
+b) o número digitado ao cubo;
+c) a raiz quadrada do número digitado;
+d) a raiz cúbica do número digitado.
+
+6) Faça um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual. Calcule e exiba:
+a) a idade dessa pessoa;
+b) quantos anos essa pessoa terá em 2027.
+
+7) Faça um programa que leia um valor representando um número de segundos. Em seguida converta-o para horas, minutos e segundos na forma:
+7322 segundos são 2 horas, 2 minutos e 2 segundos.
+
+8) O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que leia a quantidade de cada item que você consumiu e calcule a conta final.
+a) Hambúrguer: R$ 3,00
+b) Cheeseburger: R$ 2,50
+c) Fritas: R$ 2,50
+d) Refrigerante: R$ 1,00
+
+Sobre o programa:
+
+• Ao iniciar o programa deve apresentar um menu de opções, onde cada opção representa uma das questões implementadas.
+• Após executar a lógica da opção, a aplicação deve retornar para o menu principal.
+• Se o usuário indicar uma opção incorreta (<1 ou >9) deve ser exibida uma mensagem de erro.
+• A última opção do menu deve ser a opção Sair que levará o programa a ser encerrado.
+• A execução de cada opção deve mimetizar a execução de uma função com o salvamento do contexto da aplicação e posterior recuperação.
